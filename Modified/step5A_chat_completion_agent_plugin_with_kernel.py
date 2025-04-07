@@ -104,17 +104,7 @@ async def main():
     # 6. Cleanup: Clear the thread
     await thread.delete() if thread else None
 
-    """
-    Sample output:
-    # User: Hello
-    # Host: Hello! How can I assist you today?
-    # User: What is the special soup?
-    # Host: The special soup is Clam Chowder.
-    # User: What does that cost?
-    # Host: The special soup, Clam Chowder, costs $9.99.
-    # User: Thank you
-    # Host: You're welcome! If you have any more questions, feel free to ask. Enjoy your day!
-    """
+ 
 
 
 if __name__ == "__main__":
